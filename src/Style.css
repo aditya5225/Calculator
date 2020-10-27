@@ -1,0 +1,99 @@
+
+.bor {
+	border: solid 1px black;
+}
+
+.calculator {
+	width: 300px;
+	box-shadow: 0px 0px 20px 0px;
+	margin-top: 30px;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+
+.result {
+	height: 200px;
+	text-align: right;
+	padding: 0px 30px;
+	background-color: #E5E7E9;
+}
+
+
+#p1{
+	font-size: 30px;
+	margin-top: 50px;
+	display: inline-block;
+}
+
+
+.btn {
+	margin-bottom: -8px;
+}
+
+.container {
+	padding: 0px;
+}
+
+
+.btn .plus {
+	background-color: #E5E7E9;
+	border: none;
+}
+
+
+.btn .C {
+	background-color: #A3E4D7;
+}
+
+
+.btn .AC {
+	background-color: #A3E4D7;
+}
+
+
+button {
+	height: 70px;
+	border: none;
+	background-color: white;
+	font-size: 30px;
+}
+
+
+button:focus {
+	border: none;
+	outline: none;
+	box-shadow: 0px 0px 1px 0px;
+}
+
+
+.left, .right, .his {
+	background-color: red;
+	height: 30px;
+	background-color: #E5E7E9;
+}
+
+
+.left, .right {
+	cursor: pointer;
+}
+
+
+.left:hover {
+	background-color: #D7DADC;
+}
+
+.right:hover {
+	background-color: #D7DADC;
+}
+
+
+
+.his {
+	text-align: center;
+	font-size: 15px;
+}
+
+.history {
+	text-align: center;
+}
